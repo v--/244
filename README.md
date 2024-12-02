@@ -1,7 +1,7 @@
-# Advent of Operation Research 2024
+# 244 (write-only code)
 
-This repository contains solutions to [AOR24](https://advent.bmenendez.com/).
+I sometimes share Jupyter notebooks with the intention to show small code fragments with inline rich text. This repository is an attempt to ease the management of [my gists](https://gist.github.com/v--) where I previously used to share the notebooks.
 
-The code is illustrative and as such is kept as simple as possible. I have shared the Jupyter notebooks directly rather than, say, using [jupytext](https://github.com/mwouts/jupytext) because GitHub doesn't know how to render the latter. There is no functionality in the code that should rely on a very specific version of Python or any library --- any version supported as of late 2024 should do. My development environment uses specific versions and linting rules, however I saw to benefit in extracting such configurations for run-once code.
+The code contained here is illustrative and, after being written, it is highly likely that nobody will ever run it. There is no functionality in the code that should rely on a very specific version of any dependency --- any version supported as of the time of writing should do. My development environment (including Jupyter) always uses specific versions and linting rules, however I saw to benefit in extracting such configurations for illustrative code. Nevertheless, I have also committed the respective [jupytext](https://github.com/mwouts/jupytext/) files for my own convenience.
 
-The data files are parsed manually because they are in such a way that using CSV parsers or pandas actually takes more effort.
+The name of the repository, 244, is octal notation for the Unix permission `-w-r--r--`, specifying that the owner should only be able to write, while everybody else should only be able to read. Neither should be able to execute the code.
