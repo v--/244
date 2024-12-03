@@ -1,3 +1,3 @@
 # /etc
 
-Notebooks that do not belong elsewhere
+Notebooks that do not belong elsewhere.
